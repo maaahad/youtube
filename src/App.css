@@ -1,0 +1,44 @@
+.pageContainer {
+	padding: 0 16px;
+}
+
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 70px;
+	padding: 16px;
+	background-color: rgba(0, 0, 0, 0.2);
+	border-bottom: 1ps solid red;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 16px;
+}
+
+.centerSlot {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: red;
+}
+
+.content {
+	margin-top: calc(70px + 16px);
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.hero {
+	background-color: yellow;
+	border-radius: 4px;
+	height: 200px;
+}
+
+.otherComponent {
+	height: 900px;
+	background-color: green;
+}
