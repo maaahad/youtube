@@ -10,7 +10,7 @@ function App() {
 			</div>
 			<div className="content">
 				<div className="hero">Hero Section </div>
-				<div className="otherComponent"> Other Components </div>
+				<div className="otherComponent"> Other stuff </div>
 			</div>
 		</div>
 	);
